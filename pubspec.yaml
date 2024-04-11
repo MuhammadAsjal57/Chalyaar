@@ -1,0 +1,70 @@
+name: chalyaar
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  flutter_spinkit: ^5.2.1
+  another_flushbar: ^1.12.30
+  font_awesome_flutter: ^10.7.0
+  carousel_slider: ^4.2.1
+  flip_card: ^0.7.0
+  cached_network_image: ^3.3.1
+  flutter_rating_bar: ^4.0.1
+  syncfusion_flutter_datepicker: ^25.1.37
+  animated_text_kit: ^4.2.2
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+  - family: Montserrat
+    fonts: 
+    - asset: assets/fonts/MontserratRomanRegular.ttf
+      weight: 400
+    - asset: assets/fonts/MontserratRomanExtraBold.ttf
+      weight: 800
+    - asset: assets/fonts/MontserratRomanSemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/MontserratRomanBold.ttf
+      weight: 700
+    - asset: assets/fonts/MontserratRomanMedium.ttf
+      weight: 500
+  - family: Libre 
+    fonts: 
+    - asset: assets/fonts/LibreBaskerville-Regular.ttf
+      weight: 400
+    - asset: assets/fonts/LibreBaskerville-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/LibreBaskerville-Italic.ttf
+      style: italic
+  
+
+
+ 
+
+  
